@@ -4,7 +4,7 @@ let taskInput = document.getElementById("taskInput");
 
 let addBtn = document.getElementById("addBtn");
 
-let taskList = document.getElementById("taskList");
+let taskList = document.getElementById("tasklist");
 
 addBtn.addEventListener("click", function() {
 
@@ -16,7 +16,7 @@ addBtn.addEventListener("click", function() {
         return;
     }
 
-    let li = document.createElement(li);
+    let li = document.createElement("li");
 
     li.innerText = task;
 
