@@ -64,6 +64,37 @@ header p {
     font-size: 14px;
 }
 
+/* =========================
+   5. STATISTICS SECTION
+========================= */
+
+.stats {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 25px;
+}
+
+.stat-box {
+    flex: 1;
+    background: #f8fafc;
+
+    padding: 18px;
+    border-radius: 12px;
+
+    text-align: center;
+    border: 1px solid #e2e8f0;
+}
+
+.stat-box h3 {
+    font-size: 28px;
+    color: #2563eb;
+    margin-bottom: 5px;
+}
+
+.stat-box p {
+    font-size: 13px;
+    color: #64748b;
+}
 
 
 /* =========================
