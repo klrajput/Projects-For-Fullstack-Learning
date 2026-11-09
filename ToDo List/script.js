@@ -8,7 +8,7 @@ let taskList = document.getElementById("taskList");
 
 addBtn.addEventListener("click", function() {
 
-    let task = taskInput.value;
+    let task = taskInput.value.trim();
 
     if(task==="")
     {
